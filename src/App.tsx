@@ -1,5 +1,11 @@
+import Example from "@components/Example";
+
 function App() {
-  return <div className="App">asd</div>;
+  return (
+    <div className="App">
+      <Example />
+    </div>
+  );
 }
 
 export default App;
